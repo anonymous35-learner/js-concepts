@@ -1,1 +1,21 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+{
+  "name": "JavaScript Dev Environment",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "wayou.vscode-todo-highlight"
+      ],
+      "settings": {
+        "editor.fontSize": 18,
+        "terminal.integrated.fontSize": 16,
+        "editor.wordWrap": "on",
+        "editor.tabSize": 2,
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
